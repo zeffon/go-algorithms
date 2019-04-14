@@ -1,0 +1,25 @@
+{
+    {
+        "go.buildOnSave": "workspace",
+        "go.lintOnSave": "workspace",
+        "go.vetOnSave": "workspace",
+        "go.buildFlags": [],
+        "go.lintFlags": [],
+        "go.vetFlags": [],
+        "go.coverOnSave": false,
+        // "go.formatOnSave": true,
+        //goimports
+        "go.formatTool": "goreturns",
+        "go.goroot": "/usr/local/go",//你的Goroot
+        "go.gopath": "/Users/yuzefeng/go",//你的Gopath
+        "go.inferGopath": true,
+        "go.autocompleteUnimportedPackages": true,
+        "go.gocodePackageLookupMode": "go",
+        "go.gotoSymbol.includeImports": true,
+        "go.useCodeSnippetsOnFunctionSuggest": true,
+        "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+        "go.docsTool": "gogetdoc",
+        "go.testFlags": ["-v", "-bench=."],
+        // "http.proxy": "https://127.0.0.1:1087",
+    }
+}
